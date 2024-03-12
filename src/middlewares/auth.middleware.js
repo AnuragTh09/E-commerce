@@ -1,4 +1,4 @@
-import  User  from "../models/user.model.js";
+import  {User}  from "../models/user.model.js";
 import JWT from "jsonwebtoken"
 import asyncHandler from "../utils/asyncHandler.js";
 import config from "../config/index.config.js";
