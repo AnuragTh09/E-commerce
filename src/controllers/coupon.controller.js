@@ -1,6 +1,6 @@
-import  Coupon  from '../models/coupon.model.js';
+import  {Coupon}  from '../models/coupon.model.js';
 import asyncHandler from '../utils/asyncHandler.js';
-import CustomError from '../utils/customErrors';
+import CustomError from '../utils/customErrors.js';
 
 export const createCoupon = asyncHandler(async(req, res) => {
     const { code, discount } = req.body;

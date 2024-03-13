@@ -1,5 +1,4 @@
-import { Collection } from 'mongoose'
-import collection from '../models/collection.model.js'
+import { Collection } from '../models/collection.model.js'
 import asyncHandler from '../utils/asyncHandler.js'
 import CustomError from '../utils/customErrors.js'
 
